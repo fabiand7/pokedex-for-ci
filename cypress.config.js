@@ -2,14 +2,13 @@ module.exports = {
   video: false,
 
   e2e: {
-    supportFile: false,
-    setupNodeEvents(on, config) {},
+    supportFile: false
   },
 
   component: {
     devServer: {
-      framework: "react",
-      bundler: "webpack",
+      framework: 'react',
+      bundler: 'webpack',
     },
   },
-};
+}
